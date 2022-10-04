@@ -1,0 +1,41 @@
+.badge.bg-gray {
+    background-color: gray;
+    color: aliceblue;
+}
+
+.badge.bg-red {
+    background-color: rgb(195, 0, 0);
+    color: white;
+}
+
+.badge.bg-yellow {
+    background-color: rgb(198, 178, 21);
+    color: black;
+}
+
+.badge.bg-green {
+    background-color: green;
+    color: white;
+}
+
+.card-img-top {
+    height: 500px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.form {
+    display: flex;
+    grid-template-columns: 200px, 200px;
+    grid-template-rows: 50px, 150px;
+}
+
+.text-bg-primary p-3 {
+    font: white;
+}
+
+.col-sm-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
